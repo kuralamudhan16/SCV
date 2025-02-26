@@ -20,7 +20,7 @@ module sequence_detector(
      A:next_state=x?B:A;
      B:next_state=x?B:C;
      C:next_state=x?B:D;
-     D:next_state=x?A:A;
+     D:next_state=x?B:A;
      default:next_state = A;
     endcase
   end

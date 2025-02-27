@@ -1,4 +1,4 @@
-module ring_counter  #(parameter WIDTH=4)
+module johnson_counter  #(parameter WIDTH=4)
   (
 	input clk,
 	input reset,
